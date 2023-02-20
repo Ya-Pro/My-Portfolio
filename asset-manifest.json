@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/My-Portfolio/static/css/main.ac56b516.css",
+    "main.js": "/My-Portfolio/static/js/main.6e8e5d5e.js",
+    "static/media/sharif.png": "/My-Portfolio/static/media/sharif.7d337d4fb3358264c56d.png",
+    "static/media/third.PNG": "/My-Portfolio/static/media/third.a3a73fb4089d8ff95189.PNG",
+    "static/media/fourth.PNG": "/My-Portfolio/static/media/fourth.a18b9dbc4d8ef65722df.PNG",
+    "static/media/two.png": "/My-Portfolio/static/media/two.1fc0570d1329cdedd36d.png",
+    "static/media/three.png": "/My-Portfolio/static/media/three.2d63b679e429bdb69f9f.png",
+    "static/media/four.png": "/My-Portfolio/static/media/four.969ab06439172dc7e3cf.png",
+    "static/media/five.png": "/My-Portfolio/static/media/five.c8950e9864bba405ea41.png",
+    "static/media/CV Sharif Tarek .pdf": "/My-Portfolio/static/media/CV Sharif Tarek .de4162318dcabfb36bbe.pdf",
+    "static/media/first.PNG": "/My-Portfolio/static/media/first.9712b8d0129749a93a1e.PNG",
+    "static/media/one.png": "/My-Portfolio/static/media/one.fdd9fac5f6248e459019.png",
+    "static/media/second.PNG": "/My-Portfolio/static/media/second.a349d008ef2863439002.PNG",
+    "index.html": "/My-Portfolio/index.html",
+    "main.ac56b516.css.map": "/My-Portfolio/static/css/main.ac56b516.css.map",
+    "main.6e8e5d5e.js.map": "/My-Portfolio/static/js/main.6e8e5d5e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ac56b516.css",
+    "static/js/main.6e8e5d5e.js"
+  ]
+}
