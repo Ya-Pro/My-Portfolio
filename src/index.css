@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    border: none;
+    text-decoration: none;
+    list-style: none;
+    outline: none;
+    font-family: 'Space Grotesk', sans-serif;
+}
+:root {
+    --color-bg:rgb(10, 0, 19);
+    --color--bg-variant: rgb(32, 0, 75);
+    --color-primary:rgb(74, 0, 111);
+    --color-primary-variant:rgb(40, 0, 69);
+    --color-white:white;
+    --color-light:#9d9d9d;
+    --container--width-lg: 75%;
+    --container-width-md:83%;
+    --container-width-sm:90%;
+    --padding-top:5%;
+    --margin-top:5%;
+    --transition:all .4s ease-in-out;
+}
+::-webkit-scrollbar {
+    display: none
+}
+html {
+    font-size: 20px;
+    scroll-behavior: smooth;
+}
+body {
+    background-color: var(--color-bg) ;
+    background-image: radial-gradient(var(--color-primary) .1rem , transparent .2rem);
+    background-size:1rem 1rem;
+    color: var(--color-white);
+    line-height: 1.6;
+}
+/* ===================General styles */
+.container {
+    width: var(--container--width-lg);
+    margin: 0 auto;
+}
+h1,h2,h3,h4,h5 {
+    font-weight: bold;
+}
+h1 {
+    font-size: 1.4rem;
+    text-align: center;
+}
+section {
+    margin-top: var(--margin-top);
+}
+section > h2 , section h5 {
+    text-align: center;
+    color: var(--color-white);
+}
+section > h2 {
+    margin-bottom: 2rem;
+    color: var(--color-primary);
+}
+.text-light {
+    color: var(--color-light);
+}
+a {
+    color: var(--color-white);
+    font-size: .9rem;
+    transition: var(--transition);
+}
+a:hover {
+    color: var(--color-white);
+}
+.btn {
+    border: .02rem solid var(--color-primary);
+    border-radius: 1rem;
+    color: var(--color-white);
+    width: max-content;
+    display: inline-block;
+    transition: var(--transition);
+    padding: .5rem .8rem;
+    cursor: pointer;
+    background-color: transparent;
+}
+.btn:hover {
+    background-color: var(--color-white);
+    color: var(--color-primary);
+    border-color: transparent;
+}
+.btn-primary {
+    background-color: var(--color-primary);
+    color: var(--color-white);
+}
+img {
+    width: 100%;
+    display: block;
+    object-fit: contain;
+}
+/* ==============Media queries (small devices )=============== */
+@media  screen and (max-width: 600px) {
+    .container {
+        width: var(--container-width-sm);
+    }
+    section > h2 {
+        margin-bottom: 1.5rem;
+    }
+}
+/* ==============Media queries (medium devices )=============== */
+@media  screen and (max-width: 1024px) {
+    .container {
+        width: var(--container-width-md);
+    }
+    section  {
+        margin-top: 4.5rem;
+    }
+}
